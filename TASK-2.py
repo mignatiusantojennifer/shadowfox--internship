@@ -41,3 +41,32 @@ plt.xlabel('Epoch')
 plt.ylabel('Accuracy')
 plt.legend()
 plt.show()
+
+
+
+
+
+OUTPUT : 
+Epoch 1/10
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 66s 41ms/step - accuracy: 0.3595 - loss: 1.7377 - val_accuracy: 0.5680 - val_loss: 1.2081
+Epoch 2/10
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 62s 40ms/step - accuracy: 0.5784 - loss: 1.1793 - val_accuracy: 0.6181 - val_loss: 1.0623
+Epoch 3/10
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 84s 41ms/step - accuracy: 0.6385 - loss: 1.0201 - val_accuracy: 0.6291 - val_loss: 1.0611
+Epoch 4/10
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 80s 40ms/step - accuracy: 0.6785 - loss: 0.9121 - val_accuracy: 0.6729 - val_loss: 0.9501
+Epoch 5/10
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 87s 43ms/step - accuracy: 0.7056 - loss: 0.8359 - val_accuracy: 0.6841 - val_loss: 0.9169
+Epoch 6/10
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 62s 40ms/step - accuracy: 0.7301 - loss: 0.7788 - val_accuracy: 0.6996 - val_loss: 0.8686
+Epoch 7/10
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 62s 40ms/step - accuracy: 0.7453 - loss: 0.7279 - val_accuracy: 0.7113 - val_loss: 0.8562
+Epoch 8/10
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 81s 40ms/step - accuracy: 0.7605 - loss: 0.6753 - val_accuracy: 0.7037 - val_loss: 0.8794
+Epoch 9/10
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 83s 40ms/step - accuracy: 0.7799 - loss: 0.6249 - val_accuracy: 0.7082 - val_loss: 0.8606
+Epoch 10/10
+1563/1563 ━━━━━━━━━━━━━━━━━━━━ 82s 40ms/step - accuracy: 0.7905 - loss: 0.5895 - val_accuracy: 0.7149 - val_loss: 0.8813
+313/313 - 4s - 14ms/step - accuracy: 0.7149 - loss: 0.8813
+
+✅ Test accuracy: 0.7149
