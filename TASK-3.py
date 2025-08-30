@@ -47,3 +47,29 @@ print(f"\n✅ Test Accuracy: {test_acc * 100:.2f}%")
 predictions = model.predict(x_test[:5])
 print("\nPredictions for first 5 test samples:")
 print(predictions.argmax(axis=1))  # predicted labels
+
+
+
+OUTPUT : 
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz
+11490434/11490434 ━━━━━━━━━━━━━━━━━━━━ 0s 0us/step
+/usr/local/lib/python3.12/dist-packages/keras/src/layers/reshaping/flatten.py:37: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+
+Training the Neural Network...
+Epoch 1/5
+1688/1688 - 7s - 4ms/step - accuracy: 0.9258 - loss: 0.2564 - val_accuracy: 0.9693 - val_loss: 0.1090
+Epoch 2/5
+1688/1688 - 7s - 4ms/step - accuracy: 0.9678 - loss: 0.1059 - val_accuracy: 0.9727 - val_loss: 0.0935
+Epoch 3/5
+1688/1688 - 10s - 6ms/step - accuracy: 0.9769 - loss: 0.0741 - val_accuracy: 0.9763 - val_loss: 0.0841
+Epoch 4/5
+1688/1688 - 6s - 4ms/step - accuracy: 0.9829 - loss: 0.0547 - val_accuracy: 0.9778 - val_loss: 0.0758
+Epoch 5/5
+1688/1688 - 10s - 6ms/step - accuracy: 0.9856 - loss: 0.0445 - val_accuracy: 0.9805 - val_loss: 0.0746
+
+✅ Test Accuracy: 97.76%
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 72ms/step
+
+Predictions for first 5 test samples:
+[7 2 1 0 4]
